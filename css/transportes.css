@@ -23,6 +23,7 @@ h1{
 
 nav{
     background-color: #6da9ed;    
+    margin-bottom: 20px;
 }
 
 nav ul{
@@ -56,6 +57,7 @@ footer{
     background-color: #ccc;
     padding: 20px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 .holder{
@@ -69,7 +71,10 @@ h2{
 }
 
 /* inicio home */
-
+.columnas{
+    display: flex;
+    padding-right: 20px;
+}
 .bienvenidos{
     width: 75%;
 }
@@ -77,3 +82,90 @@ h2{
 .testimonios{
     width: 25%;
 }
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 12px;
+    display: block;
+}
+/* fin home */
+
+/*inicio nosotros*/
+.historia p{
+    font-size: 12px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 3px black;
+    width: 40%;
+    margin: 10px 0 12px;
+}
+
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    margin: 0;
+    font-weight: normal;
+}
+
+.persona h5{
+    font-size: 14px;
+}
+
+.persona h6{
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 12px;
+    text-align: left;
+}
+/*fin nosotros*/
+
+/* inicio contacto */
+.contacto{
+    display: flex;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+/* fin contacto */
