@@ -165,17 +165,18 @@ hr {
     border: 1px solid #2e64a1;
 }
 
- .transportes {
+.transportes {
     width: 70%;
     padding-left: 15px;
     padding-right: 15px;
- }
+}
 
- .transportes h2{
+.transportes h2 {
     font-size: 20px;
     font-style: italic;
     margin-bottom: 10px;
- }
+}
+
 .serviciosimg img {
     border-radius: 20px;
     padding: 15px;
@@ -201,42 +202,47 @@ hr {
     border-radius: 15px;
     margin: 15px;
 }
+
 /* fin servicios */
 
 /* inicio novedades */
-.novedad h3, h4{
+.novedad h3,
+h4 {
     color: #4c76a5;
 }
 
-.novedad:hover{
+.novedad:hover {
     background-color: #ccc;
     scale: 1.2;
     transition: 2s;
 }
+
 /* fin novedades */
+
 /* inicio galeria */
-.galeria{
+.galeria {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     justify-content: space-around;
 }
 
-.marcoimg{
-    border: 1px solid darkgray; 
+.marcoimg {
+    border: 1px solid darkgray;
     margin: 10px;
 }
-.marcoimg img{
+
+.marcoimg img {
     width: 150px;
-    height: auto;  
-    padding: 5px;  
+    height: auto;
+    padding: 5px;
 }
 
-.marcoimg img:hover{
-    scale: 1.5; 
-    transform: ;
+.marcoimg img:hover {
+    scale: 1.5;
     transition: 0.5s;
 }
+
 /* fin galeria */
 
 /* inicio contacto */
